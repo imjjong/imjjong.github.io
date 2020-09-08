@@ -1,5 +1,7 @@
 @mixin mainFont($weight: 700) {
-  font-family: "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
+    "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
   font-weight: $weight;
   font-style: normal;
 }
@@ -9,7 +11,7 @@
   height: #{$height}px;
 }
 
-@mixin center($max-width: map-get($jeet, 'max-width'), $pad: 0) {
+@mixin center($max-width: map-get($jeet, "max-width"), $pad: 0) {
   @include clearfix;
   width: auto;
   max-width: $max-width;
@@ -17,12 +19,12 @@
   display: block;
   margin: {
     right: auto;
-    left:  auto;
-  };
+    left: auto;
+  }
   padding: {
-    left:  $pad;
+    left: $pad;
     right: $pad;
-  };
+  }
 }
 
 @mixin align($direction: both) {
@@ -44,7 +46,7 @@
 
 @mixin clearfix() {
   &::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
   }
