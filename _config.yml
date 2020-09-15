@@ -37,7 +37,7 @@ medium_username: medium_username
 show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
-two_columns_layout: true
+two_columns_layout: false
 
 
 # Advanced Settings
@@ -53,12 +53,15 @@ sent_message_url: "/contact/message-sent/"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-collections:
-  authors:
-    output: true
+
 paginate_path: "/page/:num/"
 show_get_theme_btn: true
 use_logo: false
+collections:
+  authors:
+    output: true
+  works:
+    output: true
 
 # Content paginator
 paginate_content:
@@ -103,3 +106,5 @@ exclude:
 
 # Theme
 version: v0.1
+
+baseurl: ""
