@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}" class="no-js">
+  <head>
+    <style>
+      #red_box {
+        background-color: rgba(207, 43, 43, 0.637);
+      }
+    </style>
+  </head>
+  {% include head.html %}
+
+  <body class="has-push-menu">
+    {% include minutes-to-read.html %} {% include svg-icons.html %} {% include
+    header.html %}
+
+    <!-- Show modal before user leaves the page -->
+
+    <!-- Include the script that allows Netlify CMS login -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <!-- Include the website scripts -->
+    <script src="{{ '/assets/js/scripts.min.js' | prepend: site.baseurl }}"></script>
+
+    <!-- Include Google Analytics script -->
+    {% include stats.html %}
+
+    <!-- Include extra scripts -->
+    {% include extra-js.html %}
+  </body>
+</html>

@@ -1,6 +1,6 @@
 ---
 date: 2019-11-26 16:43:28
-layout: post
+layout: kitchen
 title: "Kitchen design"
 subtitle: Oven ux design in europe target
 description: first design in samsung electronic
