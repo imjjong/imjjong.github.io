@@ -24,6 +24,8 @@ collections:
     output: true
   works:
     output: true
+  tips:
+    output: true
 
 # Content paginator
 paginate_content:

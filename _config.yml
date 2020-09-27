@@ -17,6 +17,8 @@ menu:
     url: /about
   - title: Contact
     url: /contact
+  - title: How to make my home page
+    url: /Tips
   - title: Feed
     url: /feed.xml
 email: lvzerovl@naver.com
@@ -61,6 +63,8 @@ collections:
   authors:
     output: true
   works:
+    output: true
+  tips:
     output: true
 
 # Content paginator
