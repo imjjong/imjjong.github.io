@@ -222,3 +222,5 @@ position: static;
 
 부모에게 가두기 위해서 부모속성에
 relatvie주깅
+
+<img class="img-rounded" src="https://images.unsplash.com/photo-1508381592917-f70a660e413e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="Thiago Rossener" width="400" height="400">

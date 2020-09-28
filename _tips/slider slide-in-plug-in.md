@@ -19,50 +19,40 @@ galleries:
     url: /without-plugin/image-gallery
 ---
 
-  <head>
-   
-    <!-- 슬라이드 플러그인앱 -->
-  <link rel="stylesheet" type="text/css" href="/assets/css/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="/assets/css/slick/slick-theme.css" />
+<head>
+  <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
     <style type="text/css">
       html,
       body,ul,ol {
         margin: 0;
         padding: 0;
       }
-
       * {
         box-sizing: border-box;
       }
-
       .slider {
         width: 90%;
         margin: 100px auto;
         padding-top: 24px;
       }
-
       .slick-slide {
         margin: 0px 20px;
       }
-
       .slick-slide img {
         width: 100%;
       }
-
       .slick-prev:before,
       .slick-next:before {
         color: black;
       }
-
       .slick-slide {
         transition: all ease-in-out 0.3s;
         opacity: 0.2;
       }
-
       .slick-active {
         opacity: 0.5;
       }
-
       .slick-current {
         opacity: 1;
       }
@@ -81,7 +71,6 @@ galleries:
         .slider {
         width: 980px;
         margin: 100px auto;
-
         }
         .container {
         display: grid;
@@ -90,7 +79,6 @@ galleries:
         background-color: yellow;
         }
       }
-
       .container2 {
         display: grid;
         gap: 10px 10px;
@@ -129,7 +117,6 @@ galleries:
       .item3 {
         background-color: rgb(9, 86, 187);
       }
-
       .container4 {
         display: grid;
         gap: 10px 10px;
@@ -179,8 +166,9 @@ galleries:
         grid-row: 1 / span 2;
       }
     </style>
+    </head>
 
-
+<body>
     <section class="regular slider" style=" background-color: gray">
       <div>
         <div style="width: 100%; height: 100px; background: red">1</div>
@@ -250,7 +238,7 @@ galleries:
       type="text/javascript"
     ></script>
     <script
-      src="/assets/js/slick/slick.js"
+      src="/assets/slick/slick.js"
       type="text/javascript"
       charset="utf-8"
     ></script>
@@ -265,3 +253,5 @@ galleries:
         });
       });
     </script>
+
+</body>
