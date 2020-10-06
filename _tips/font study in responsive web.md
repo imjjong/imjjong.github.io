@@ -19,6 +19,10 @@ galleries:
     url: /without-plugin/image-gallery
 ---
 
+Web의 Landscape대한 고민
+https://material.io/resources/devices/
+http://troy.labs.daum.net/
+
 Font
 Rem 단위로 하자!
 https://offroadcode.com/rem-calculator

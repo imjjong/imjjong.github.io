@@ -16,13 +16,31 @@ paginate: false
   <script src="/assets/wow_animate/wow.min.js"></script>
   <script>
   new WOW().init();
+
 </script>
+
 </head>
 
 <body>
-
+  <style>
+    .boxStyle{
+      width: 100px;
+      height: 100px;
+      background-color:#F5F5F7;
+      border-radius: 20px;
+      left: 100px;
+    }
+    </style>
 <h1>How to use the WOW Animate</h1>
 <p>Reference site : https://wowjs.uk/</p>
+
+<br>
+<h5 style="color: #0f44a7">animated bounce delay-2s</h5>
+<div class="boxStyle">animated<br>bounce<br>delay-2s</div>
+
+<br>
+<h5 style="color: #0f44a7">animated bounce delay-2s</h5>
+<div class="boxStyle">animated<br>bounce<br>delay-2s</div>
 
 <h1 class="animated bounce delay-2s">H1</h1>
 <h2 class="wow bounceInUp">H2</h2>
