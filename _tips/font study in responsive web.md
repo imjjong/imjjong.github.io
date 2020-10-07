@@ -22,6 +22,11 @@ galleries:
 Web의 Landscape대한 고민
 https://material.io/resources/devices/
 http://troy.labs.daum.net/
+http://iosres.com/
+반응형 범위 기준
+mobie 768
+pad 1024
+PC
 
 Font
 Rem 단위로 하자!

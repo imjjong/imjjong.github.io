@@ -3,7 +3,7 @@
   <head>
     <style>
       #red_box {
-        background-color: rgba(207, 43, 43, 0.637);
+        background-color: rgba(76, 79, 243, 0.877);
       }
     </style>
   </head>
@@ -12,12 +12,12 @@
   <body class="has-push-menu">
     {% include minutes-to-read.html %} {% include svg-icons.html %} {% include
     header.html %}
-
+    <div id="red_box">Imjjong</div>
     <!-- MD파일 Body 내용 불러오기 -->
     <section>
       <article role="article" class="post-content">
-        {% include pagination-post.html progressBar=true %} {%
-        include toc.html %} {{ content }} {% include pagination-post.html %}
+        {% include pagination-post.html progressBar=true %} {% include toc.html
+        %} {{ content }} {% include pagination-post.html %}
       </article>
     </section>
 

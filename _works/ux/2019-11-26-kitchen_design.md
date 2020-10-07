@@ -13,5 +13,26 @@ paginate: false
 order: 1
 ---
 
-
 Hello, Kitchen
+
+<head>
+    <style>
+        body{
+          
+        }
+        .text_box{
+            background-color: gold;
+            display: flex;
+            justify-content: center;
+            padding: 0 1.25rem;
+            width: 100%;
+            max-width: 50rem;
+        }
+    </style>
+</head>
+<section>
+    <article role="article" class="post-content">
+        <div class="text_box">text_area</div>
+    </article>
+    <div id="red_box">text_area</div>
+</section>
