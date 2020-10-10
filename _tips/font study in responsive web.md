@@ -19,6 +19,91 @@ galleries:
     url: /without-plugin/image-gallery
 ---
 
+<head>
+    <style>
+
+        .text_box{
+            background-color: black;
+            width: auto;
+            /* 일정 이상 width 값이 커지 않도록 제한두기*/
+            max-width: 50rem;
+            padding: 0 1.25rem;
+        }
+        .container {
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-flow: row wrap;
+          flex-flow: row wrap;
+
+          max-width: 50rem;
+          box-sizing: border-box;
+          min-height: 150px;
+          min-width: 150px;
+        }
+
+
+
+        @media (max-width: 37.5rem){
+            .text_box{
+                background-color: gold;
+                display: block;
+            }
+
+            .c1, .c2, .c3, .c4, .c5 {
+          width: 100%;
+        }
+
+        }
+
+        @media screen and (min-width: 37.5rem) and (max-width: 1024px){
+            .text_box{
+                background-color: blue;
+                /* 아래 문장은 양쪽으로 자동 Margin값주기 */
+                margin: 0 auto 0;
+            }
+            .c1{
+              width: 100%;
+            }
+            .c2, .c3, .c4, .c5 {
+           width: 50%;
+          }
+          .container{
+            max-width: 50rem;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          }
+
+        @media (min-width: 1024px) {
+          .text_box{
+            background-color:rgba(10, 185, 19, 0.493);
+            margin: 0 auto 0;
+            display: flex;
+            justify-content: center;
+          }
+          .c1 {
+              width: 60%;
+            }
+            .c2 {
+              width: 40%;
+            }
+            .c3, .c4 {
+            width: 33%;
+            }
+            .c5 {
+            width: 34%;
+            }
+          .container {
+            max-width: 50rem;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+
+</style>
+</head>
+
 Web의 Landscape대한 고민
 https://material.io/resources/devices/
 http://troy.labs.daum.net/
@@ -27,6 +112,79 @@ http://iosres.com/
 mobie 768
 pad 1024
 PC
+
+<body>
+  <div class="text_box" id="box_size">device_screen_size</div>
+  <br>
+  <div class="text_box" id="screen_size">browser_size</div>
+  <br>
+  <div class="text_box">text_area</div>
+
+  <script>
+    var box = document.getElementById('box_size');
+    box.style.color = 'black';
+    box.innerText = screen.width;
+
+    var screen = document.getElementById('screen_size');
+    screen.style.color = 'gold';
+    
+    function displayWindowSize(){
+      screen.innerText = window.innerWidth;
+}
+window.addEventListener("resize", displayWindowSize);
+    
+  </script>
+</body>
+
+How to use code of the response web
+
+```css
+.text_box {
+  background-color: black;
+  width: auto;
+  /* 일정 이상 width 값이 커지 않도록 제한두기*/
+  max-width: 50rem;
+  padding: 0 1.25rem;
+}
+
+@media (max-width: 37.5rem) {
+  .text_box {
+    background-color: gold;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 37.5rem) and (max-width: 1024px) {
+  .text_box {
+    background-color: blue;
+    /* 아래 문장은 양쪽으로 자동 Margin값주기 */
+    margin: 0 auto 0;
+  }
+}
+@media (min-width: 1024px) {
+  .text_box {
+    background-color: rgba(10, 185, 19, 0.493);
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+```
+
+## 유동형 Mostly Fluid
+
+<div class="container" style="color: gold; ">
+  <div class="c1" style="background-color: #003476;">1
+  </div>
+  <div class="c2" style="background-color: #0062d2;">2
+  </div>
+  <div class="c3" style="background-color: #b4d2f7;">3
+  </div>
+  <div class="c4" style="background-color: #d5dfef;">4
+  </div>
+  <div class="c5" style="background-color: #dfe1e5;">5
+  </div>
+</div>
 
 Font
 Rem 단위로 하자!
