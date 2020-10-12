@@ -20,6 +20,7 @@ galleries:
 ---
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
 
         .text_box{
@@ -202,7 +203,7 @@ font-family:"SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim
 }
 
 .appleFont {
-font-family:"SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+font-family: 'Noto Sans KR','Roboto',sans-serif;
 }
 </style>
 
@@ -331,6 +332,8 @@ reference site : https://developers.google.com/web/fundamentals/design-and-ux/re
 reference<br>
 https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/
 <br>
+https://fonts.google.com/specimen/Noto+Sans+KR?selection.family=Noto+Sans+KR&sidebar.open=true
+<br>
 
 <table>
   <thead>
@@ -381,6 +384,25 @@ https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/
     </tr>
   </tbody>
 </table>
+<div class="appleFont" style="
+-webkit-font-smoothing: antialiased;
+direction: ltr;
+line-height: 1.17865;
+letter-spacing: 0em;
+text-align: center;
+margin: 0;
+padding: 0;
+font-weight: 700;
+font-style: normal;
+word-break: keep-all;
+margin-top: 0;
+color: black;
+font-size: 56px;">
+
+건강의 미래,<br>이미 손목 위에.
+
+</div>
+<br>
 
 <div class="appleFont" style="
 -webkit-font-smoothing: antialiased;
