@@ -1,7 +1,5 @@
-@mixin mainFont($weight: 300) {
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
-    "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
+@mixin mainFont($weight: 500) {
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
   font-weight: $weight;
   font-style: normal;
 }

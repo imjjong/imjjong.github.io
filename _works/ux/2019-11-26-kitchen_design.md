@@ -231,10 +231,12 @@ order: 1
 
 </html>
 
-<div class="container1" style="color: gold; ">
-    <div class="d1" style="background-color: #003476;">
-        키친 디자인을 위한 <br> 유럽 식문화 조사
+<div class="container1" style="color: #1d1d1f;  text-align: center;
+font-family: 'Noto Sans KR','Roboto',sans-serif;">
+    <div class="d1" style=" background-color: #fbfbfd;">
+      <h1>🍴키친 디자인을 위한 <br> 유럽 식문화 조사</h1>
     </div>
+      <h2> 런던, 파리 현지 조사</h2>
     <div class="d2" style="background-color: #0062d2;">2
     </div>
     <div class="d3" style="background-color: #b4d2f7;">3
@@ -247,10 +249,9 @@ order: 1
 
 <div >
     <div class="title" style="color: #1d1d1F">
-        키
     </div>
     <div class="sub-title" style="color: #1d1d1F; padding-left: 24px;">
-        런던, 파리 현지 리서치<br>
+       
     </div>
     <div class="post-description" style="color: #1d1d1F">
         구주 Microwave 원형 과제<br>
