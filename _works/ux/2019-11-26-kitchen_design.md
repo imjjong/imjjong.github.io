@@ -33,7 +33,7 @@ order: 1
 
           max-width: 50rem;
           box-sizing: border-box;
-          min-height: 150px;
+          min-height: 100px;
           min-width: 150px;
         }
         .container2 {
@@ -236,10 +236,11 @@ font-family: 'Noto Sans KR','Roboto',sans-serif;">
     <div class="d1" style=" background-color: #fbfbfd;">
       <h1>🍴키친 디자인을 위한 <br> 유럽 식문화 조사</h1>
     </div>
-      <h2> 런던, 파리 현지 조사</h2>
-    <div class="d2" style="background-color: #0062d2;">2
+    
+    <div class="d2" style="background-color: #FFFFFF;">
+      <img src="/images/01.png">
     </div>
-    <div class="d3" style="background-color: #b4d2f7;">3
+    <div class="d3" style="background-color: #b4d2f7;"><h3> 런던, 파리 현지 조사</h3>
     </div>
     <div class="d4" style="background-color: #d5dfef;">4
     </div>
