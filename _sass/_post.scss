@@ -68,15 +68,17 @@
   iframe {
     @include center(rem(800px));
     @include mainFont(400);
-    font-size: rem(17px);
-    line-height: rem(30px);
+    // 바탕글 폰트 사이즈
+    font-size: rem(16px);
+    line-height: rem(18px);
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
 
     @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
+      // 바탕글 폰트 사이즈
+      font-size: rem(18px);
+      line-height: rem(22px);
       margin: rem(29px) auto 0;
     }
   }
@@ -198,7 +200,7 @@
     font-size: rem(36px);
     line-height: 1.4;
     @include media(">=sm") {
-      font-size: rem(50px);
+      font-size: rem(44px);
     }
   }
 
@@ -207,7 +209,7 @@
     line-height: 1.4;
 
     @include media(">=sm") {
-      font-size: rem(37px);
+      font-size: rem(36px);
     }
   }
 

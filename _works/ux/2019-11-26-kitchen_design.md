@@ -88,12 +88,9 @@ order: 1
                 /* 아래 문장은 양쪽으로 자동 Margin값주기 */
                 margin: 0 auto 0;
             }
-            .d1{
+            .d1, .d2, .d3, .d4, .d5{
               width: 100%;
             }
-            .d2, .d3, .d4, .d5 {
-           width: 50%;
-          }
 
           .container1{
             max-width: 50rem;
@@ -233,34 +230,24 @@ order: 1
 
 <div class="container1" style="color: #1d1d1f;  text-align: center;
 font-family: 'Noto Sans KR','Roboto',sans-serif;">
-    <div class="d1" style=" background-color: #fbfbfd;">
+    <div class="d1" style=" background-color: #fbfbfd; padding: 70px 0; min-height: 20rem;">
       <h1>🍴키친 디자인을 위한 <br> 유럽 식문화 조사</h1>
     </div>
     
-    <div class="d2" style="background-color: #FFFFFF;">
-      <img src="/images/01.png">
+    <div class="d2" style="background-color: #FFFFFF; color: #1d1d1F;"><p> 런던, 파리 현지 조사<br>
+      구주 Microwave 원형 과제<br>
+        시기 : 2016년 하반기<br>
+        진행 내용 : 1. 구주 시장 영국, 프랑스의 현지 FGD(Focuss group design) 주방내에 Needs 파악<br> 2. 가정 방문(Home visit)을 실사용환경 파악과 진행하여 신규 UX컨셉을 발굴<br>
+        효과 : 가격대별 3가지 군의 전략과 컨셉으로 제안 하였으며 전자레인지의 고정되어진 Form과 사용패턴에서 벗어난 새로운 형태에 컨셉을 제안함.
+      </p>
     </div>
-    <div class="d3" style="background-color: #b4d2f7;"><h3> 런던, 파리 현지 조사</h3>
+    <div class="d3" style="background-color: #b4d2f7;"><img src="/images/01.png">
     </div>
     <div class="d4" style="background-color: #d5dfef;">4
     </div>
     <div class="d5" style="background-color: #dfe1e5;">5
     </div>
   </div>
-
-<div >
-    <div class="title" style="color: #1d1d1F">
-    </div>
-    <div class="sub-title" style="color: #1d1d1F; padding-left: 24px;">
-       
-    </div>
-    <div class="post-description" style="color: #1d1d1F">
-        구주 Microwave 원형 과제<br>
-        시기 : 2016년 하반기<br>
-        진행 내용 : 1. 구주 시장 영국, 프랑스의 현지 FGD(Focuss group design) 주방내에 Needs 파악<br> 2. 가정 방문(Home visit)을 실사용환경 파악과 진행하여 신규 UX컨셉을 발굴<br>
-        효과 : 가격대별 3가지 군의 전략과 컨셉으로 제안 하였으며 전자레인지의 고정되어진 Form과 사용패턴에서 벗어난 새로운 형태에 컨셉을 제안함.
-    </div>
-</div>
 
 <div>
     <img src="/images/eu_food/research.png" style="width:100%;">
