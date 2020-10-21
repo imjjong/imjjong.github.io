@@ -18,6 +18,9 @@ order: 1
         <!-- 내가 만든 CSS 넣어보기 -->
       <!-- <link rel="stylesheet" href="/assets/css/ux/ux_post_common.css"/> -->
       <style>
+        /* 구글 본고딕 웹폰트 불러오기 */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
           .text_box{
             background-color: black;
             width: auto;
