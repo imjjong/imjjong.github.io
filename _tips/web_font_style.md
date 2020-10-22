@@ -36,6 +36,7 @@ galleries:
     -webkit-font-smoothing: antialiased;
     /* 줄 바꿈 시, 단어 단위로 끊어주는 역할 */
     word-break: keep-all;
+    font-family: 'Noto Sans KR', sans-serif;
   }
 
     @media (max-width: 37.5rem) {
@@ -140,31 +141,30 @@ color: #1d1d1f;
       <th>PC</th>
     </tr>
   </thead>
-  <tfoot>
-    <tr>
-      <td>H1</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
   <tbody>
     <tr>
+      <td>H1</td>
+      <td>34.6</td>
+      <td>36</td>
+      <td>37.3</td>
+    </tr>
+    <tr>
       <td>H2</td>
-      <td>10</td>
-      <td>44</td>
-      <td>44</td>
+      <td>26.6</td>
+      <td>28</td>
+      <td>29.3</td>
     </tr>
     <tr>
       <td>H3</td>
-      <td>4</td>
-      <td>3</td>
-
+      <td>24</td>
+      <td>25.3</td>
+      <td>26.6</td>
     </tr>
     <tr>
       <td>P</td>
-      <td>7</td>
-      <td>17</td>
-      <td>17</td>
+      <td>20</td>
+      <td>21.3</td>
+      <td>22.6</td>
     </tr>
     <tr>
       <td>line-height</td>
