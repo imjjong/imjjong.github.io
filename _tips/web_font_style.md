@@ -29,6 +29,7 @@ galleries:
   .text_box{
     max-width: 50rem;
     padding: 0 1.25rem;
+    padding-bottom: 1.25rem;
     background-color: gray;
     width: auto;
     /* 부드럽게 폰트 표현하기 */
@@ -69,7 +70,9 @@ background-color: rgba(247, 247, 247);
 </head>
 ### 본고딕 Font Weight Type
 
-<div class="text_box">
+<button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV" class="text_box">
   <h3 style="padding-left: 0px; padding-bottom: 20px;">본고딕 종류</h3>
   <div class="bongodic" style="font-weight: 100;">본고딕 Thin 100입니다.</div>
   <div class="bongodic" style="font-weight: 300;">본고딕 Light 300입니다.</div>
@@ -231,3 +234,14 @@ https://fonts.google.com/specimen/Noto+Sans+KR?selection.family=Noto+Sans+KR&sid
 <br>
 https://developer.apple.com/fonts/
 <br>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
