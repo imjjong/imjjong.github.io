@@ -83,6 +83,7 @@ background-color: rgba(247, 247, 247);
 </div>
 
 <br>
+<br>
 ### 글자의 속성
 ```css
 .text_box{
