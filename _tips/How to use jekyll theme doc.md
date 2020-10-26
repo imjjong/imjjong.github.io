@@ -14,6 +14,17 @@ tags:
 author: thiagorossener
 ---
 
+### Css 다루기
+
+1. 변수 선언 하기
+   \_sass > \_variables.scss
+
+2. 재사용 모듈 만들기
+   \_sass > \_mixin
+
+3. Post에서 재사용하기
+   \_sass > mixin
+
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.

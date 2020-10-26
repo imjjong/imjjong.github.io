@@ -20,7 +20,7 @@ galleries:
 ---
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
 <style>
   body{
     font-family: 'Noto Sans KR', sans-serif;
@@ -39,25 +39,47 @@ galleries:
     font-family: 'Noto Sans KR', sans-serif;
   }
 
-    @media (max-width: 37.5rem) {
+  h1, h2, h3, p{
+    height: 1.1875;
+    background-color: rgba(247, 247, 247);
+    font-weight: 700;
+    letter-spacing: 0em;
+  }
+    /* Mobile */
+    @media (max-width: 768px) {
       .text_box {
       background-color: gold;
       display: block;
       }
+      h2{
+        font-size: 48px;
+      }
     }
 
-    @media screen and (min-width: 37.5rem) and (max-width: 1024px) {
-    .text_box {
-      background-color: rgb(82, 163, 240);
-      margin: 0 auto 0;
+    /*  Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      .text_box {
+        background-color: rgb(82, 163, 240);
+        margin: 0 auto 0;
+      }
+      h2{
+        font-size: 56px;
+      }
+      p{
+        font-size: 56px;
+      }
     }
-    }
+
+    /* PC */
     @media (min-width: 1024px) {
-    .text_box {
+      .text_box {
       background-color: rgb(226, 55, 92);
       margin: 0 auto 0;
       max-width: 50rem;
       justify-content: center;
+      }
+      h2{
+        font-size: 80px;
       }
     }
 
@@ -72,6 +94,7 @@ background-color: rgba(247, 247, 247);
 ### 본고딕 Font Weight Type
 
 <button onclick="myFunction()">Click Me</button>
+
 
 <div id="myDIV" class="text_box">
   <h3 style="padding-left: 0px; padding-bottom: 20px;">본고딕 종류</h3>
@@ -181,6 +204,14 @@ color: #1d1d1f;
   </tbody>
 </table>
 
+<div id="myDIV" class="text_box">
+  <h3 style="padding-left: 0px; padding-bottom: 20px;">본고딕 크기</h3>
+ 
+  <div><h1 id="h1_size">H1 스피드 그 이상의 스피드.</h1></div>
+  <div><h2 id="h2_size">H2 스피드 그 이상의 스피드.</h2></div>
+  <div><h3 id="h3_size">H3 스피드 그 이상의 스피드.</h3></div>
+  <div><p id="p_size">H3 스피드 그 이상의 스피드.</p ></div>
+</div>
 
 
 
@@ -245,4 +276,9 @@ https://developer.apple.com/fonts/
       x.style.display = "none";
     }
   }
+  function font_size(){
+    var h1 = document.getElementById("h1_size");
+    console.log(h1.style.fontSize);
+  }
+  font_size();
 </script>

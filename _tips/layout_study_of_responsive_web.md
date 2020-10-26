@@ -71,7 +71,7 @@ galleries:
         }
 
 
-        @media (max-width: 37.5rem){
+        @media (max-width: 768px){
             .text_box{
                 background-color: gold;
                 display: block;
@@ -87,7 +87,7 @@ galleries:
             }
         }
 
-        @media screen and (min-width: 37.5rem) and (max-width: 1024px){
+        @media screen and (min-width: 768px) and (max-width: 1024px){
             .text_box{
                 background-color: blue;
                 /* 아래 문장은 양쪽으로 자동 Margin값주기 */
@@ -257,14 +257,14 @@ How to use code of the response web
   padding: 0 1.25rem;
 }
 
-@media (max-width: 37.5rem) {
+@media (max-width: 768px) {
   .text_box {
     background-color: gold;
     display: block;
   }
 }
 
-@media screen and (min-width: 37.5rem) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .text_box {
     background-color: blue;
     /* 아래 문장은 양쪽으로 자동 Margin값주기 */
@@ -279,7 +279,6 @@ How to use code of the response web
     justify-content: center;
   }
 }
-
 ```
 
 reference site : https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko

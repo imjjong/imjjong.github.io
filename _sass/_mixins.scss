@@ -1,4 +1,4 @@
-@mixin mainFont($weight: 500) {
+@mixin mainFont($weight: 400) {
   font-family: "Noto Sans KR", "Roboto", sans-serif;
   font-weight: $weight;
   font-style: normal;

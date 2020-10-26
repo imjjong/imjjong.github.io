@@ -1,6 +1,7 @@
 /**
  * Set up here the general appearance of the theme.
  */
+//  변수선언해주는 문서
 
 $themeColor: map-get($theme, themeColor) !default;
 $primaryDark: map-get($theme, primaryDark) !default;
@@ -9,8 +10,11 @@ $lightGray: map-get($theme, lightGray) !default;
 $texts: map-get($theme, texts) !default;
 
 // Breakpoints
+// 중간점
 $breakpoints: (
-  sm: 37.5rem
+  // sm: 37.5rem,
+  sm: 768px,
+  pc: 1024px
 );
 
 // Margins
