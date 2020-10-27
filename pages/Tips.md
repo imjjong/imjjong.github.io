@@ -7,15 +7,12 @@ permalink: /Tips/
 description: Some description.
 ---
 
-
 ### {{ page.title }}
 
-
-
 how to use Load Site
+
 1. sudo gulp
 2. sudo bundle exec jekyll serve 2>/dev/null
-
 
 ### list
 
@@ -28,3 +25,5 @@ how to use Load Site
     <img class="img" data-aos="fade-in"  data-aos-delay="1000" url='https://source.unsplash.com/random' width="30%">
   {% endfor %}
 </ul>
+
+https://weenidy.com/index

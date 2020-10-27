@@ -18,8 +18,7 @@ order: 1
         <!-- 내가 만든 CSS 넣어보기 -->
       <!-- <link rel="stylesheet" href="/assets/css/ux/ux_post_common.css"/> -->
       <style>
-        /* 구글 본고딕 웹폰트 불러오기 */
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+       
 
           .text_box{
             background-color: black;
@@ -231,6 +230,9 @@ order: 1
 
 </html>
 
+<div class="text_box">
+  <h1>🍴키친 디자인을 위한 <br> 유럽 식문화 조사</h1>
+</div>
 <div class="container1" style="color: #1d1d1f;  text-align: center;
 font-family: 'Noto Sans KR','Roboto',sans-serif;">
     <div class="d1" style=" background-color: #fbfbfd; padding: 70px 0; min-height: 20rem;">

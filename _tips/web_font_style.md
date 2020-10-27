@@ -26,63 +26,6 @@ galleries:
     font-family: 'Noto Sans KR', sans-serif;
   }
   
-  .text_box{
-    max-width: 50rem;
-    padding: 0 1.25rem;
-    padding-bottom: 1.25rem;
-    background-color: gray;
-    width: auto;
-    /* 부드럽게 폰트 표현하기 */
-    -webkit-font-smoothing: antialiased;
-    /* 줄 바꿈 시, 단어 단위로 끊어주는 역할 */
-    word-break: keep-all;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
-
-  h1, h2, h3, p{
-    height: 1.1875;
-    background-color: rgba(247, 247, 247);
-    font-weight: 700;
-    letter-spacing: 0em;
-  }
-    /* Mobile */
-    @media (max-width: 768px) {
-      .text_box {
-      background-color: gold;
-      display: block;
-      }
-      h2{
-        font-size: 48px;
-      }
-    }
-
-    /*  Tablet*/
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      .text_box {
-        background-color: rgb(82, 163, 240);
-        margin: 0 auto 0;
-      }
-      h2{
-        font-size: 56px;
-      }
-      p{
-        font-size: 56px;
-      }
-    }
-
-    /* PC */
-    @media (min-width: 1024px) {
-      .text_box {
-      background-color: rgb(226, 55, 92);
-      margin: 0 auto 0;
-      max-width: 50rem;
-      justify-content: center;
-      }
-      h2{
-        font-size: 80px;
-      }
-    }
-
 .bongodic{
 font-size: 30px;
 height: 4rem;
@@ -207,10 +150,10 @@ color: #1d1d1f;
 <div id="myDIV" class="text_box">
   <h3 style="padding-left: 0px; padding-bottom: 20px;">본고딕 크기</h3>
  
-  <div><h1 id="h1_size">H1 스피드 그 이상의 스피드.</h1></div>
-  <div><h2 id="h2_size">H2 스피드 그 이상의 스피드.</h2></div>
-  <div><h3 id="h3_size">H3 스피드 그 이상의 스피드.</h3></div>
-  <div><p id="p_size">H3 스피드 그 이상의 스피드.</p ></div>
+  <div><h1 id="h1_size">H1 tag 스피드 그 이상의 스피드.</h1></div>
+  <div><h2 id="h2_size">H2 tag 스피드 그 이상의 스피드.</h2></div>
+  <div><h3 id="h3_size">H3 tag 스피드 그 이상의 스피드.</h3></div>
+  <div><p id="p_size">P tag 스피드 그 이상의 스피드.</p ></div>
 </div>
 
 
@@ -276,6 +219,7 @@ https://developer.apple.com/fonts/
       x.style.display = "none";
     }
   }
+  
   function font_size(){
     var h1 = document.getElementById("h1_size");
     console.log(h1.style.fontSize);
