@@ -11,7 +11,7 @@
 footer {
   @include center(rem(800px));
   // 임의로 조정함
-  width: 100vmax;
+  width: 100%;
   max-width: 100rem;
   border-top: 1px solid darken($accentDark, 10%);
   background: $accentDark;
