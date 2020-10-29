@@ -69,23 +69,25 @@
     @include center(rem(800px));
     @include mainFont(400);
     // 바탕글 폰트 사이즈
-    font-size: rem(20px);
+
     line-height: rem(18px);
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
+    font-size: rem(12px);
+    color: #1d1d1f;
 
     @include media(">=sm") {
-      // 바탕글 폰트 사이즈
-      font-size: rem(16px);
+      font-size: rem(14px);
       line-height: rem(40px);
       margin: rem(29px) auto 0;
     }
 
     @include media(">=pc") {
-      font-size: rem(80px);
-      color: #1d1d1f;
+      font-size: rem(16px);
     }
+
+    // 바탕글 편집 부분 끝
   }
 
   h1.post-title {
@@ -207,12 +209,12 @@
 
     color: #50976a;
     @include media(">=sm") {
-      font-size: rem(44px);
+      font-size: rem(48px);
       color: #3948b1;
     }
 
     @include media(">=pc") {
-      font-size: rem(58px);
+      font-size: rem(60px);
       color: #1d1d1f;
     }
   }
@@ -223,7 +225,7 @@
     color: #50976a;
 
     @include media(">=sm") {
-      font-size: rem(36px);
+      font-size: rem(38px);
       color: #3948b1;
     }
 
@@ -238,15 +240,31 @@
     line-height: 1.4;
 
     @include media(">=sm") {
-      font-size: rem(36px);
+      font-size: rem(32px);
       color: #3948b1;
     }
 
     @include media(">=pc") {
-      font-size: rem(48px);
+      font-size: rem(40px);
       color: #1d1d1f;
     }
   }
+
+  h4 {
+    font-size: rem(16px);
+    line-height: 1.4;
+
+    @include media(">=sm") {
+      font-size: rem(22px);
+      color: #3948b1;
+    }
+
+    @include media(">=pc") {
+      font-size: rem(28px);
+      color: #1d1d1f;
+    }
+  }
+
   ul,
   ol {
     padding-left: rem(60px);
@@ -366,33 +384,6 @@
     &:hover .anchor,
     .anchor:hover {
       opacity: 1;
-    }
-  }
-
-  // 내가 만든 Text Box
-  .text_box {
-    max-width: 50rem;
-    padding: 0 1.25rem;
-    padding-bottom: 1.25rem;
-    background-color: gray;
-    width: auto;
-    // 부드럽게 폰트 표현하기
-
-    -webkit-font-smoothing: antialiased;
-    // 줄 바꿈 시, 단어 단위로 끊어주는 역할
-    word-break: keep-all;
-    font-family: "Noto Sans KR", sans-serif;
-    background-color: #e2f4de;
-
-    @include media(">=sm") {
-      background-color: #aecbd9;
-      display: block;
-    }
-
-    @include media(">=pc") {
-      background-color: #fcf6f0;
-      margin: 0 auto 0;
-      justify-content: center;
     }
   }
 }

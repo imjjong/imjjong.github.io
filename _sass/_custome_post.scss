@@ -1,0 +1,455 @@
+.post-content {
+  // 내가 만든 Text Box
+
+  .text_box {
+    //   가운데 정렬
+    margin: 0 auto 0;
+    max-width: 50rem;
+    padding: 0 1.25rem;
+    padding-bottom: 1.25rem;
+    background-color: gray;
+    width: auto;
+    // 부드럽게 폰트 표현하기
+
+    -webkit-font-smoothing: antialiased;
+    // 줄 바꿈 시, 단어 단위로 끊어주는 역할
+    word-break: keep-all;
+    font-family: "Noto Sans KR", sans-serif;
+    // background-color: #e2f4de;
+    background-color: #eeeeee;
+
+    @include media(">=sm") {
+      //   background-color: #aecbd9;
+      background-color: #f5f5f5;
+      display: block;
+      justify-content: right;
+    }
+
+    @include media(">=pc") {
+      //   background-color: #fcf6f0;
+      background-color: FAFAFA;
+      margin: 0 auto 0;
+      max-width: 70rem;
+      justify-content: center;
+    }
+  }
+}
+
+.container1 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  box-sizing: border-box;
+  min-height: 100px;
+  min-width: 150px;
+}
+.container2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+}
+.container3 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+}
+.f1,
+.f2,
+.f3,
+.f4 {
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+  display: block;
+}
+
+@media (max-width: 37.5rem) {
+  .text_box {
+    background-color: gold;
+    display: block;
+  }
+  .d1,
+  .d2,
+  .d3,
+  .d4,
+  .d5 {
+    width: 100%;
+  }
+  .e1,
+  .e2,
+  .e3 {
+    width: 100%;
+  }
+  .f1,
+  .f4 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 37.5rem) and (max-width: 1024px) {
+  .text_box {
+    background-color: blue;
+    /* 아래 문장은 양쪽으로 자동 Margin값주기 */
+    margin: 0 auto 0;
+  }
+  .d1,
+  .d2,
+  .d3,
+  .d4,
+  .d5 {
+    width: 100%;
+  }
+
+  .container1 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .e1 {
+    width: 60%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .e2 {
+    width: 40%;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .e3 {
+    width: 100%;
+    -webkit-order: 3;
+    order: 3;
+  }
+  .container2 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .f1 {
+    width: 25%;
+  }
+
+  .f4 {
+    width: 75%;
+  }
+}
+.container3 {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .text_box {
+    background-color: rgba(10, 185, 19, 0.493);
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  .d1 {
+    width: 60%;
+  }
+  .d2 {
+    width: 40%;
+  }
+  .d3,
+  .d4 {
+    width: 33%;
+  }
+  .d5 {
+    width: 34%;
+  }
+  .container1 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .e1 {
+    width: 60%;
+  }
+  .e2 {
+    width: 20%;
+  }
+
+  .e3 {
+    width: 20%;
+  }
+  .container2 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .f1 {
+    width: 50%;
+  }
+
+  .f4 {
+    width: 50%;
+  }
+  .container3 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Top left text */
+.oven-wrapper {
+  /* margin-left: 24px; */
+  background-color: black;
+  color: #ffffff;
+}
+
+.post-description {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.oven-wrapper .thumb-left {
+  width: 50%;
+  /* height: auto; */
+  /* background-color: black; */
+  background-image: url(/images/uk_lcd_oven/product.png);
+  background-size: cover;
+  background-position: top;
+  margin-left: 24px;
+}
+
+.oven-wrapper .thumb-center {
+  width: 100%;
+  height: 400px;
+  background-image: url(/images/uk_lcd_oven/control.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.container1 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  box-sizing: border-box;
+  min-height: 100px;
+  min-width: 150px;
+}
+.container2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+}
+.container3 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+}
+.f1,
+.f2,
+.f3,
+.f4 {
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+  display: block;
+}
+
+@media (max-width: 37.5rem) {
+  .text_box {
+    background-color: gold;
+    display: block;
+  }
+  .d1,
+  .d2,
+  .d3,
+  .d4,
+  .d5 {
+    width: 100%;
+  }
+  .e1,
+  .e2,
+  .e3 {
+    width: 100%;
+  }
+  .f1,
+  .f4 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 37.5rem) and (max-width: 1024px) {
+  .text_box {
+    background-color: blue;
+    /* 아래 문장은 양쪽으로 자동 Margin값주기 */
+    margin: 0 auto 0;
+  }
+  .d1,
+  .d2,
+  .d3,
+  .d4,
+  .d5 {
+    width: 100%;
+  }
+
+  .container1 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .e1 {
+    width: 60%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .e2 {
+    width: 40%;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .e3 {
+    width: 100%;
+    -webkit-order: 3;
+    order: 3;
+  }
+  .container2 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .f1 {
+    width: 25%;
+  }
+
+  .f4 {
+    width: 75%;
+  }
+}
+.container3 {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .text_box {
+    background-color: rgba(10, 185, 19, 0.493);
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  .d1 {
+    width: 60%;
+  }
+  .d2 {
+    width: 40%;
+  }
+  .d3,
+  .d4 {
+    width: 33%;
+  }
+  .d5 {
+    width: 34%;
+  }
+  .container1 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .e1 {
+    width: 60%;
+  }
+  .e2 {
+    width: 20%;
+  }
+
+  .e3 {
+    width: 20%;
+  }
+  .container2 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .f1 {
+    width: 50%;
+  }
+
+  .f4 {
+    width: 50%;
+  }
+  .container3 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Top left text */
+.oven-wrapper {
+  /* margin-left: 24px; */
+  background-color: black;
+  color: #ffffff;
+}
+
+.post-description {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.oven-wrapper .thumb-left {
+  width: 50%;
+  /* height: auto; */
+  /* background-color: black; */
+  background-image: url(/images/uk_lcd_oven/product.png);
+  background-size: cover;
+  background-position: top;
+  margin-left: 24px;
+}
+
+.oven-wrapper .thumb-center {
+  width: 100%;
+  height: 400px;
+  background-image: url(/images/uk_lcd_oven/control.png);
+  background-size: cover;
+  background-position: bottom;
+}

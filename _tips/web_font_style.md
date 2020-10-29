@@ -38,7 +38,6 @@ background-color: rgba(247, 247, 247);
 
 <button onclick="myFunction()">Click Me</button>
 
-
 <div id="myDIV" class="text_box">
   <h3 style="padding-left: 0px; padding-bottom: 20px;">본고딕 종류</h3>
   <div class="bongodic" style="font-weight: 100;">본고딕 Thin 100입니다.</div>
@@ -149,10 +148,11 @@ color: #1d1d1f;
 
 <div id="myDIV" class="text_box">
   <h3 style="padding-left: 0px; padding-bottom: 20px;">본고딕 크기</h3>
- 
+
   <div><h1 id="h1_size">H1 tag 스피드 그 이상의 스피드.</h1></div>
   <div><h2 id="h2_size">H2 tag 스피드 그 이상의 스피드.</h2></div>
   <div><h3 id="h3_size">H3 tag 스피드 그 이상의 스피드.</h3></div>
+  <div><h4 id="h4_size">H4 tag 스피드 그 이상의 스피드.</h4></div>
   <div><p id="p_size">P tag 스피드 그 이상의 스피드.</p ></div>
 </div>
 
