@@ -22,7 +22,7 @@ footer {
 
   @include media(">=sm") {
     margin-top: rem(100px);
-    // 임의로 조정함
+    // 임의로 조정함.
     max-width: 100rem;
     width: 100vmax;
   }
