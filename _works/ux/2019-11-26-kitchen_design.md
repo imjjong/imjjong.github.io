@@ -15,27 +15,27 @@ order: 1
 
 <html>
     <head>
-        <!-- 내가 만든 CSS 넣어보기 -->
-      <!-- <link rel="stylesheet" href="/assets/css/ux/ux_post_common.css"/> -->
+        <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
       <style>
       </style>
-
     </head>
 
 </html>
+<body>
 
 <div class="text_box" style="text-align: center;">
   <h1>Kitchen Design🍴</h1>
-  <h4 style="padding-bottom : 24px; ">더 나은 즐거운 요리 경험을 만들어주는 위한 디자인</h4>
+  <h4 style="padding-bottom : 24px; ">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
   <img src="/images/20.png">
 </div>
 <div class="container1" style="color: #1d1d1f;  text-align: center;
 font-family: 'Noto Sans KR','Roboto',sans-serif;">
     <div class="d1" style=" background-color: #fbfbfd; padding: 70px 0; min-height: 20rem;">
-      <h1 style="text-align: center;">🍴키친 디자인을 위한 <br> 유럽 식문화 조사</h1>
+      <h1 style="text-align: center;">키친 디자인을 위한 <br> 유럽 식문화 조사</h1>
     </div>
     
-    <div class="d2" style="background-color: #FFFFFF; color: #1d1d1F;"><p> 런던, 파리 현지 조사<br>
+    <div class="d2" style="background-color: #FFFFFF; color: #1d1d1F; text-align: left; list-style: 1.3;"><p> 런던, 파리 현지 조사<br>
       구주 Microwave 원형 과제<br>
         시기 : 2016년 하반기<br>
         진행 내용 : 1. 구주 시장 영국, 프랑스의 현지 FGD(Focuss group design) 주방내에 Needs 파악<br> 2. 가정 방문(Home visit)을 실사용환경 파악과 진행하여 신규 UX컨셉을 발굴<br>
@@ -60,6 +60,13 @@ FGD 및 Home vist 전자레인지 리서치<br>
 신규디자인을 위한 데이터 확보를 위해서 구주 현지에 방문하여 주거, 식문화 등의 라이프 스타일 조사
 
 {% include image-gallery.html folder="/images/uk_mwo/" %}
+
+<div class="text_box" style="text-align: center;">
+    <h3> Euro oven design</h3>
+    <p> 구주 지역에 오븐디자인 작업</p>
+    <p style="padding-bottom : 24px; "> 역할 : UI Designer</p>
+</div>
+
 
 <div class="oven-wrapper">
     
@@ -106,7 +113,9 @@ FGD 및 Home vist 전자레인지 리서치<br>
 
 </div>
 
-#### 구주 오븐 LED 디자인
+
+
+
 
 Intuitive step-by-step cooking guide
 Guide Lighting Control
@@ -125,6 +134,9 @@ Enjoy a much simpler and more intuitive way to cook with the Guide Lighting Cont
 {% include image-gallery.html folder="/images/us_range/" %}
 
 https://www.samsung.com/us/home-appliances/ranges/electric/5-8-cu-ft-slide-in-induction-range-with-virtual-flame--technology-in-black-stainless-steel-ne58r9560wg-aa/
+
+
+
 
 미주 Wall-Oven Combi/Single 컨트롤패널 원형과제
 시기 : 2016년 상반기
@@ -202,3 +214,56 @@ Analog knobs and a digital touch screen make it easy to control the oven. And wi
 </div>
 
 {% include image-gallery.html folder="/images/newyork/" %}
+
+<div class="text_box" style="text-align: center;">
+    <h3>오븐 디자인</h3>
+    <p> 글로벌 구주, 미주 지역에 나가는 오븐디자인 작업</p>
+    <p style="padding-bottom : 24px; "> 역할 : UI Designer</p>
+</div>
+
+<section class="regular slider" style=" background-color: gray">
+    <div>
+        <div class="text_box" style="text-align: center;">
+            <h4>Signature LED Lights</h4>
+            <p style="padding-bottom : 24px; ">Leave the oven door closed and save heat with lighting that allows you to check progress. </p>
+            <img src="/images/17.png">
+          </div>
+    </div>
+    <div>
+      <div class="container" style="height: 700px">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+      </div>
+    </div>
+    
+     
+    <div>
+      <img src="http://placehold.it/350x300?text=6" />
+    </div>
+  </section>
+  
+
+<script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="/assets/slick/slick.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script type="text/javascript">
+      $(document).on("ready", function () {
+        $(".regular").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          adaptiveHeight: true,
+        });
+      });
+</script>
+
+</body>

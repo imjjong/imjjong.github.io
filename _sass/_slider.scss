@@ -1,0 +1,43 @@
+// SCSS 슬라이드 제어용
+
+.slider {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+  // 화살표 색깔 변경
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+.slick-active {
+  opacity: 0.5;
+}
+.slick-current {
+  opacity: 1;
+}
+.container {
+  display: inline-grid;
+  justify-items: stretch;
+  width: 100%;
+  gap: 10px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.item {
+  background-color: rgb(50, 37, 175);
+}
+.post-content ul {
+  // 점점 가운데로 보내기
+  padding-left: 0rem;
+}
