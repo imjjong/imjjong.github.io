@@ -2,7 +2,7 @@
 layout: page
 menu: true
 date: "2019-12-30 01:01:0"
-title: How to use the jekyll theme
+title: Tips
 permalink: /Tips/
 description: Some description.
 ---
