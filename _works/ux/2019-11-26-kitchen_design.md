@@ -24,13 +24,20 @@ order: 1
 </html>
 <body>
 
-<div class="text_box" style="text-align: center;">
-  <h1>Kitchen Design🍴</h1>
-  <h4 style="padding-bottom : 24px; ">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
-  <img src="/images/20.png">
+<div class="text_box" style="width: 100%; height: 95vh;">
+  <!-- <img src="/images/20.png"> -->
+  <div class="vedio_box">
+    <video autoplay muted loop>
+      <source src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4">
+    </video>
+    <div class="vedio_headline">
+      <h1>Kitchen Design🍴</h1>
+      <h4 style="padding-bottom : 24px; ">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
+    </div>
+  </div>
 </div>
 
-<h3 style="text-align: center;">키친 디자인을 위한 유럽 식문화 조사</h3>
+<h3 style="margin-top: 0vh; text-align: center;">키친 디자인을 위한 유럽 식문화 조사</h3>
 
 <section class="regular slider" style=" background-color: #fff">
   <div style="text-align: center;">
@@ -55,29 +62,29 @@ order: 1
     FGD 및 Home vist 전자레인지 리서치<br>
     신규디자인을 위한 데이터 확보를 위해서 구주 현지에 방문하여 주거, 식문화 등의 라이프 스타일 조사
 
-    {% include image-gallery.html folder="/images/uk_mwo/" %}   
+    {% include image-gallery.html folder="/images/uk_mwo/" %}
+
   </div>
 </section>
-
 
 <!-- 오븐 디자인 -->
 <h3> Euro wall oven Ux design</h3>
 
-
 <section class="regular slider" style=" background-color: #fbfbfd; ">
 
     <div class="text_box" style="text-align: center; background-color: #fbfbfd">
-  
+
       <p> 구주 지역에 오븐디자인 작업</p>
       <p style="padding-bottom : 24px; "> 역할 : UI Designer</p>
       <p>진행 시기 : 2014. June 입사1년차</p>
-    
+
       <p>
         NV9900J LCD, Dual oven LED Dual 오븐 컨트로패널 디자인
 
       효과 : 신규 원형 과제로 LCD, LED 등 다양한 오븐 제품군을 파생에 대응할 수 있도록 고려한 디자인으로 현재까지 5년이상 판매되고 활용되고 있는 컨트폴패널 디자인으로 구주 뿐만아니라 국내 오븐 파생되어진 과제
       </p>
         <img src="/images/uk_lcd_oven/product5.png" style="width: 100%; object-fit: cover;">
+
   </div>
 
   <div>
@@ -109,10 +116,10 @@ Enjoy a much simpler and more intuitive way to cook with the Guide Lighting Cont
     <h4>Dual Oven</h4>
     {% include image-gallery.html folder="/images/uk_dual_oven/" %}
     <p>참고 링크 : https://www.samsung.com/uk/cooking-appliances/electric-ovens/</p>
+
   </div>
 
 </section>
-
 
 <!-- 미주 지역 -->
 <h3>미주 지역 Kitchen design</h3>
@@ -151,52 +158,50 @@ https://www.samsung.com/us/home-appliances/ranges/electric/5-8-cu-ft-slide-in-in
 <div>
   ### 2016. 입사 3년차
 
-  2014 - 2016 oven ux design in kitchen part
-  https://www.samsung.com/uk/cooking-appliances/
+2014 - 2016 oven ux design in kitchen part
+https://www.samsung.com/uk/cooking-appliances/
+
 </div>
 <div>
   <p>
     ##### Wall Oven in US
 
     30” Microwave Combination Wall Oven in Black Stainless Steel
-    
+
     Guiding light controls are intuitive, with simple step-by-step instructions for choosing cooking options.
-    
+
     https://www.samsung.com/us/home-appliances/wall-ovens/double/30-double-wall-oven-nv51r5511dg-aa/
-    
+
     https://www.samsung.com/us/home-appliances/wall-ovens/microwave-combination-oven/30--combination-microwave-wall-oven-nq70m6650dg-aa/
-    
+
     {% include image-gallery.html folder="/images/us_oven/" %}
-    
+
     Single Oven
     Bake, broil and roast with precise heat for even cooking and fit multiple dishes.
-    
+
     Double Oven
     Cook at different temperatures and fit all your dishes from a rack of cookies to a turkey roast.
-    
+
     Microwave Combination Oven
     Give your leftovers a second life with the microwave or create a gourmet meal with the oven.
-    
+
     Oven in Europe
-    
+
     - 2014~2016년 : IOT 관련 다수 기기 UX디자인 설계 경험 있음 : 오븐, 에어컨, 전자레인지 등<br>
-    
+
     Easy-to-use interface
-    
+
     Analog knobs and a digital touch screen make it easy to control the oven. And with signature LED lights, you can check on your food without opening the door.
+
   </p>
 </div>
 <div>
 
-  {% include image-gallery.html folder="/images/cook-top/" %}
+{% include image-gallery.html folder="/images/cook-top/" %}
 
 </div>
 
 </section>
-
-
-
-
 
 <h3>디자인 검증을 위한 뉴욕 User Test 진행</h3>
 <section class="regular slider" style=" background-color: #fbfbfd">
@@ -221,13 +226,11 @@ https://www.samsung.com/us/home-appliances/ranges/electric/5-8-cu-ft-slide-in-in
   </div>
 </section>
 
-
-
-
 <script
       src="https://code.jquery.com/jquery-2.2.0.min.js"
       type="text/javascript"
     ></script>
+
     <script
       src="/assets/slick/slick.js"
       type="text/javascript"
@@ -243,6 +246,7 @@ https://www.samsung.com/us/home-appliances/ranges/electric/5-8-cu-ft-slide-in-in
           adaptiveHeight: false,
         });
       });
+
 </script>
 
 </body>
