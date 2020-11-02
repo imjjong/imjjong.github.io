@@ -24,8 +24,8 @@ order: 1
 </html>
 <body>
 
-<div class="text_box" style="width: 100%; height: 95vh;">
-  <!-- <img src="/images/20.png"> -->
+<div class="text_box" style="width: 100%; height: 94vh;">
+  
   <div class="vedio_box">
     <video autoplay muted loop>
       <source src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4">
@@ -33,8 +33,10 @@ order: 1
     <div class="vedio_headline">
       <h1>Kitchen Design🍴</h1>
       <h4 style="padding-bottom : 24px; ">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
+      
     </div>
   </div>
+  <img src="/images/20.png">
 </div>
 
 <h3 style="margin-top: 0vh; text-align: center;">키친 디자인을 위한 유럽 식문화 조사</h3>
