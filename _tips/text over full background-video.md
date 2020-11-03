@@ -61,7 +61,7 @@ paginate: false
 
 <div class="banner">
   <video autoplay muted loop>
-    <source src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4">
+    <source src="http://imjjong.dothome.co.kr/cooking_oven.mp4" type="video/mp4">
   </video>
   <div class="content">
     <h1>흥미로운 즐거운 조리경험을 위한 UX Design</h1>
