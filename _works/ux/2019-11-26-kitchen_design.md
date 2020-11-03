@@ -28,11 +28,14 @@ order: 1
   
   <div class="vedio_box">
     <video autoplay muted loop>
-      <source src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4">
+      <!-- <source src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4"> -->
+        
+      <source src="http://imjjong.dothome.co.kr/cooking_oven.mp4" type="video/mp4">
+      
     </video>
     <div class="vedio_headline">
       <h1>Kitchen Design🍴</h1>
-      <h4 style="padding-bottom : 24px; ">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
+      <h4 style="padding-bottom : 24px; color:#fbfbfd">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
       
     </div>
   </div>
