@@ -48,15 +48,30 @@ paginate: false
     text-transform: uppercase;
     color: #fff;
   }
-  .banner iframe {
-   width: 100vw;
-   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  .bannerd iframe {
+    
+    
+   position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+ .banner iframe{
+    
+   width: 100%;
+   /* height: 100%; */
+   height: 56.25vw; 
+   /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
    min-height: 100vh;
    min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   
 }
 </style>
 
@@ -70,7 +85,7 @@ paginate: false
 </div> -->
 
 <div class="banner">
-    <iframe src="https://player.vimeo.com/video/149915506?background=1&autoplay=1&loop=1&byline=0&title=0" 
+    <iframe src="https://player.vimeo.com/video/475423401?background=1&autoplay=1&loop=1&byline=0&title=0" 
            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
   <div class="content">
     <h1>흥미로운 즐거운 조리경험을 위한 UX Design1</h1>

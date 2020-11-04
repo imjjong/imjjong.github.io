@@ -29,3 +29,16 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+.vedio_box iframe {
+  width: 100%;
+
+  height: 56.25vw;
+
+  min-height: 100vh;
+  min-width: 177.77vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
