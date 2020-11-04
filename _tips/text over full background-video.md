@@ -48,6 +48,16 @@ paginate: false
     text-transform: uppercase;
     color: #fff;
   }
+  .banner iframe {
+   width: 100vw;
+   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+   min-height: 100vh;
+   min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 </style>
 
 <!-- <div class="banner">
@@ -60,10 +70,15 @@ paginate: false
 </div> -->
 
 <div class="banner">
-  <video autoplay muted loop>
-    <source src="http://imjjong.dothome.co.kr/cooking_oven.mp4" type="video/mp4">
-  </video>
+    <iframe src="https://player.vimeo.com/video/149915506?background=1&autoplay=1&loop=1&byline=0&title=0" 
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
   <div class="content">
-    <h1>흥미로운 즐거운 조리경험을 위한 UX Design</h1>
+    <h1>흥미로운 즐거운 조리경험을 위한 UX Design1</h1>
   </div>
 </div>
+
+<iframe src="https://player.vimeo.com/video/149915506?color=00ccff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/149915506">Drone</a> from <a href="https://vimeo.com/skyless">Skyless Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+http://imjjong.dothome.co.kr/cooking_oven.mp4
+https://player.vimeo.com/video/76979871?background=1&autoplay=1&loop=1&byline=0&title=0
