@@ -27,7 +27,7 @@ order: 1
 <div class="text_box" style="width: 100%; height: 94vh;">
   
   <div class="vedio_box">
-    <iframe src="https://player.vimeo.com/video/149915506?background=1&autoplay=1&loop=1&byline=0&title=0" 
+    <iframe width="100%" src="https://player.vimeo.com/video/149915506?background=1&autoplay=1&loop=1&byline=0&title=0" 
            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
     <div class="vedio_headline">
       <h1>Kitchen Design🍴</h1>

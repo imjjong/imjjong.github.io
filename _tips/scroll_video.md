@@ -156,19 +156,19 @@ footer {
   <article>
     
 <!-- 영상 -->
-<video id="uke" src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4" width="640" height="360" muted loop>
+<video id="uke" src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4" width="100%" height="360" muted loop>
 </video>
 
           <h3>Images with captions</h3>
           <p>Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. </p>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
-          <video id="uke2" width="640" height="360" muted loop>
+          <video id="uke2" width="100%" height="360" muted loop>
               <source src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/cooking_oven.mp4" type="video/mp4">
           </video>
 
          
-
+          <img width="100%" src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/pexels-cottonbro-3992206.jpg">
   </article>
  
 
