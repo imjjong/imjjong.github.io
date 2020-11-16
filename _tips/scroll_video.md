@@ -164,19 +164,20 @@ footer {
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
           <video id="uke2" width="640" height="360" muted loop>
-              <source src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4">
+              <source src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/cooking_oven.mp4" type="video/mp4">
           </video>
 
          
 
   </article>
+ 
 
+  <script src="./assets/plugins/ScrollMagic.min.js"></script>
+  <script src="./assets/plugins/debug.addIndicators.min.js"></script>
 
-  <script src="/assets/scroll_video/ScrollMagic.min.js"></script>
-  <script src="./assets/scroll_video/plugins/debug.addIndicators.min.js"></script>
-  <script src='/assets/js/jquery.min.js'></script>
-  <script src="/assets/wow_animate/wow.min.js"></script>
-  <script src="assets/slick/slick.min.js"></script>
+  <script src='./assets/js/jquery.min.js'></script>
+  <script src="./assets/wow_animate/wow.min.js"></script>
+  <script src="./assets/slick/slick.min.js"></script>
   <script>
     // Uncomment to initialise WOW.js
 new WOW().init();
@@ -193,8 +194,9 @@ $(document).ready(function(){
 // init controller
 var controller = new ScrollMagic.Controller();
 
+
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#uke", duration: 200})
+var scene = new ScrollMagic.Scene({triggerElement: "#uke", duration: 300, offset: 0})
         .addTo(controller)
         .addIndicators() // add indicators (requires plugin)
 
@@ -206,7 +208,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#uke", duration: 200})
         })
 
         // build scene
-var scene2 = new ScrollMagic.Scene({triggerElement: "#uke2", duration: 200})
+var scene2 = new ScrollMagic.Scene({triggerElement: "#uke2", duration: 200, offset: -100})
 .addTo(controller)
 .addIndicators() // add indicators (requires plugin)
 

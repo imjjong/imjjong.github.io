@@ -75,22 +75,22 @@ paginate: false
 }
 </style>
 
-<!-- <div class="banner">
+<div class="banner">
   <video autoplay muted loop>
-    <source src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4">
+    <source src="https://player.vimeo.com/video/149915506" type="video/mp4">
   </video>
   <div class="content">
     <h1>Hello</h1>
   </div>
-</div> -->
+</div>
 
-<div class="banner">
-    <iframe src="https://player.vimeo.com/video/475423401?background=1&autoplay=1&loop=1&byline=0&title=0" 
+<!-- <div class="banner">
+    <iframe src="https://player.vimeo.com/video/475423401?background=1&autoplay=1&loop=1&byline=0&title=0"
            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
   <div class="content">
     <h1>흥미로운 즐거운 조리경험을 위한 UX Design1</h1>
   </div>
-</div>
+</div> -->
 
 <iframe src="https://player.vimeo.com/video/149915506?color=00ccff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/149915506">Drone</a> from <a href="https://vimeo.com/skyless">Skyless Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
