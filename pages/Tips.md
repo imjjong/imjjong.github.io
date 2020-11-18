@@ -27,3 +27,6 @@ how to use Load Site
 </ul>
 
 https://weenidy.com/index
+
+UI/UX 디자이너 포트폴리오, 어떻게 시작하지?
+https://brunch.co.kr/@vivishin/28

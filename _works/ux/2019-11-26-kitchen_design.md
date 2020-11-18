@@ -27,13 +27,10 @@ order: 1
 <div class="text_box" style="width: 100%; height: 94vh;">
   
   <div class="vedio_box">
-    <iframe width="100%" src="https://player.vimeo.com/video/149915506?background=1&autoplay=1&loop=1&byline=0&title=0" 
-           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
-    <div class="vedio_headline">
+      <div class="vedio_headline">
       <h1>Kitchen Design🍴</h1>
       <h4 style="padding-bottom : 24px; color:#fbfbfd">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
-      
-    </div>
+      </div>
   </div>
   <img src="/images/20.png">
 </div>

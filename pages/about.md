@@ -9,9 +9,17 @@ permalink: /about/
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+What is it that's unique about me?
+나의 독특한 점은 무엇이지?
+
+What is my background? How did i get in to UX?
+내 전공은? 내가 어떻게 UX를 하게되 었는지?
+
+What kind of skills do I hava that will be useful for this role?
+내가 갖고 있는 스킬이 직무에 유용할까?
+
+What are my interests and passion that really lines up with this job and how can i related my previous experience or project to it?
+나의 어떤 관심사와 열정이 이 직업과 맞고 내 이전의 경험이나 프로젝트를 어떻게 연관시킬까?
+
+What do i lack in terms of skill or knowledge?
+내 기술과 지식의 어떤 부분이 부족하지?
