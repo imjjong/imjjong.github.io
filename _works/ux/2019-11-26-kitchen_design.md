@@ -48,20 +48,32 @@ order: 1
   </div>
         
   <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lphzDnh2BxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Background</p>
+    <sup>신생 업체로서 점유율 확대 기회 요소 파악</sup>
+    <h3>오븐 설정을 어떻게 쉽게 할 수 있을까?</h3>
+    <br>
+    <h4>모드, 온도, 시간의 적절한 조합? 어떻게 설정하지?</h4>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lphzDnh2BxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   
   <div>
+    <h4>LED Guide Lighting design</h4>
+    <p>사용자들이 눌러해야되는 버튼을 쉽고 간단하게 안내</p>
     <img src="/images/eu_food/research.png" style="width:100%;">
   </div>
 
   <div>
+    <h4>요리 책없이도 Cooking을 경험하고 싶은 사용자들을 위한 디자인</h4>
+    <p>LCD에 조리법을 제공</p>
+
     17년형 구주 MWO 선행 발굴 리서치 진행(한국리서치, 영국, 프랑스)<br>
     FGD 및 Home vist 전자레인지 리서치<br>
     신규디자인을 위한 데이터 확보를 위해서 구주 현지에 방문하여 주거, 식문화 등의 라이프 스타일 조사
 
     {% include image-gallery.html folder="/images/uk_mwo/" %}
-
+  </div>
+  <div>
+    현재는 5년간 이상 판매되고 베스트 셀러 다수의 디자인 공모전 수상
   </div>
 </section>
 

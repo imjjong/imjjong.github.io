@@ -13,6 +13,9 @@ paginate: false
 published: ture
 order: 3
 ---
+
+<h3>Voice Guide Principle 작성</h3>
+<h3>Hands free design</h3>
 <head>
   <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
@@ -40,7 +43,6 @@ Adjusting the temperature or playing music is as simple as saying it.</p>
   </video>
 </div>
 
-
 <section class="regular slider" style=" background-color: gray">
   <div>
     <div style="width: 100%; height: 100px; background: red">1</div>
@@ -66,6 +68,7 @@ Adjusting the temperature or playing music is as simple as saying it.</p>
       src="https://code.jquery.com/jquery-2.2.0.min.js"
       type="text/javascript"
     ></script>
+
     <script
       src="/assets/slick/slick.js"
       type="text/javascript"
@@ -81,5 +84,6 @@ Adjusting the temperature or playing music is as simple as saying it.</p>
           adaptiveHeight: true,
         });
       });
+
 </script>
 </body>
