@@ -12,6 +12,7 @@ paginate: false
 ---
 
 이것은 무엇이오 웹에서 입력가능하옹? 뭐짐 이제되
+
 <head>
 <style>
   body {
@@ -24,109 +25,101 @@ paginate: false
     color: rgba(0, 0, 0, 0.74);
 }
 
-
-/* a few tweaks here and there */
+/_ a few tweaks here and there _/
 
 h2 {
-    margin: 0;
+margin: 0;
 }
 
 figure {
-    margin: 0;
-    /* resets the left margin in the figure*/
+margin: 0;
+/_ resets the left margin in the figure_/
 }
 
 figure img {
-    max-width: 100%;
-    /* images will shrink to fit inside the main conent column*/
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+max-width: 100%;
+/_ images will shrink to fit inside the main conent column_/
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
 figcaption {
-    font-size: 14px;
-    color: #555;
+font-size: 14px;
+color: #555;
 }
 
 blockquote {
-    width: 66%;
-    margin: 1em auto;
-    background: #ddd;
-    padding: 1em;
-    font-size: 1.25em;
-    text-align: center;
-    color: #696969;
-    border-bottom: 1px solid #999;
-    border-top: 1px solid #999;
+width: 66%;
+margin: 1em auto;
+background: #ddd;
+padding: 1em;
+font-size: 1.25em;
+text-align: center;
+color: #696969;
+border-bottom: 1px solid #999;
+border-top: 1px solid #999;
 }
 
-
-/* Styling the full-page background headers */
+/_ Styling the full-page background headers _/
 
 .image_bg, .color_bg {
-    height: 100vh;
-    /* this sets the height of each full width image section to that of the viewport.*/
-    position: relative;
-    /*display: flex;  */
-    background-position: center !important;
+height: 100vh;
+/_ this sets the height of each full width image section to that of the viewport._/
+position: relative;
+/_display: flex; _/
+background-position: center !important;
 }
 
+/_ the text inside the headers _/
 
-/* the text inside the headers */
-
-
-
-
-/* Styles for individual header sections by class name. */
+/_ Styles for individual header sections by class name. _/
 
 .title {
-    background: url(../images/IMG_20150714_101239.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* the background image doesn't move when scrolling*/
+background: url(../images/IMG_20150714_101239.jpg) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+/_ the background image doesn't move when scrolling_/
 }
 
-
-/* the above style gets copied for every new section header with background image. Each new copy has a new class name. */
+/_ the above style gets copied for every new section header with background image. Each new copy has a new class name. _/
 
 .paris {
-    background: url(../images/Paris2013.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+background: url(../images/Paris2013.jpg);
+background-size: cover;
+background-attachment: fixed;
 }
 
 .green_header {
-    /* this sets the background colour of the coloured header. */
-    background: #AED581;
+/_ this sets the background colour of the coloured header. _/
+background: #AED581;
 }
 
-
-/* Content sections */
+/_ Content sections _/
 
 .content {
-    margin: 0 auto;
-    padding: 1em 20%;
-    /* this in-effect sets the content section's width e.g. 20% = 60% width. */
+margin: 0 auto;
+padding: 1em 20%;
+/_ this in-effect sets the content section's width e.g. 20% = 60% width. _/
 }
 
 footer {
-    height: 100px;
-    background: #000;
-    color: #eee;
-    text-align: center;
-    padding: 1em;
+height: 100px;
+background: #000;
+color: #eee;
+text-align: center;
+padding: 1em;
 }
 
-/* This is the mobile responsive stylesheet */
+/_ This is the mobile responsive stylesheet _/
 
 @media only screen and (min-width: 768px) {
-    /* tablets and desktop */
+/_ tablets and desktop _/
 }
 
 @media only screen and (max-width: 767px) {
-    /* phones */
-    .content {
-      margin: 0 auto;
-      position: relative;
+/_ phones _/
+.content {
+margin: 0 auto;
+position: relative;
 
       padding: 1em;
     }
@@ -141,36 +134,41 @@ footer {
         position: relative;
     }
 
-
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+/_ portrait phones _/
 }
 
 </style>
 </head>
 
-
 <body>
   <article>
     
 <!-- 영상 -->
-<video id="uke" src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4" width="100%" height="360" muted loop>
+<video id="uke" src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4" width="100%" height="360" muted loop>
 </video>
 
           <h3>Images with captions</h3>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. </p>
+          <p>Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. <br>
+          
+          </p>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
           <video id="uke2" width="100%" height="360" muted loop>
-              <source src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/cooking_oven.mp4" type="video/mp4">
+              <source src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4">
           </video>
 
-         
+
           <img width="100%" src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/pexels-cottonbro-3992206.jpg">
+          h
+          
+        아마존 주소 :https://jjongstorige.s3.ap-northeast-2.amazonaws.com/cooking_oven.mp4
+
+
   </article>
- 
+
 
   <script src="./assets/plugins/ScrollMagic.min.js"></script>
   <script src="./assets/plugins/debug.addIndicators.min.js"></script>
@@ -219,7 +217,6 @@ var scene2 = new ScrollMagic.Scene({triggerElement: "#uke2", duration: 200, offs
   ukeVid2.pause();
 })
 
-  </script>  
+  </script>
 
 </body>
-
