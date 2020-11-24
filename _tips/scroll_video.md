@@ -74,7 +74,7 @@ background-position: center !important;
 /_ Styles for individual header sections by class name. _/
 
 .title {
-background: url(../images/IMG_20150714_101239.jpg) no-repeat;
+background: url(./images/IMG_20150714_101239.jpg) no-repeat;
 background-size: cover;
 background-attachment: fixed;
 /_ the background image doesn't move when scrolling_/
@@ -147,7 +147,7 @@ position: relative;
   <article>
     
 <!-- 영상 -->
-<video id="uke" src="http://imjjong.woobi.co.kr/movie/cooking_oven.mp4" type="video/mp4" width="100%" height="360" muted loop>
+<video id="uke" src="./oven.mp4" type="video/mp4" width="100%" height="360" muted loop>
 </video>
 
           <h3>Images with captions</h3>
