@@ -147,7 +147,7 @@ position: relative;
   <article>
     
 <!-- 영상 -->
-<video id="uke" src="./oven.mp4" type="video/mp4" width="100%" height="360" muted loop>
+<video id="uke" src="./oven_cooking.mp4" type="video/mp4" width="100%" height="360" muted loop>
 </video>
 
           <h3>Images with captions</h3>
