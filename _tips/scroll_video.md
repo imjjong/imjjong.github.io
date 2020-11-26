@@ -25,7 +25,7 @@ paginate: false
     color: rgba(0, 0, 0, 0.74);
 }
 
-/_ a few tweaks here and there _/
+
 
 h2 {
 margin: 0;
@@ -33,12 +33,12 @@ margin: 0;
 
 figure {
 margin: 0;
-/_ resets the left margin in the figure_/
+/* /_ resets the left margin in the figure_/ */
 }
 
 figure img {
 max-width: 100%;
-/_ images will shrink to fit inside the main conent column_/
+/* /_ images will shrink to fit inside the main conent column_/ */
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
@@ -59,28 +59,32 @@ border-bottom: 1px solid #999;
 border-top: 1px solid #999;
 }
 
-/_ Styling the full-page background headers _/
+/* /_ Styling the full-page background headers _/ */
 
 .image_bg, .color_bg {
 height: 100vh;
-/_ this sets the height of each full width image section to that of the viewport._/
+
+/* /_ this sets the height of each full width image section to that of the viewport._/ */
+
 position: relative;
-/_display: flex; _/
+
+/* /_display: flex; _/ */
 background-position: center !important;
 }
 
-/_ the text inside the headers _/
+/* /_ the text inside the headers _/ */
 
-/_ Styles for individual header sections by class name. _/
+/* /_ Styles for individual header sections by class name. _/ */
 
 .title {
 background: url(./images/IMG_20150714_101239.jpg) no-repeat;
 background-size: cover;
 background-attachment: fixed;
-/_ the background image doesn't move when scrolling_/
+/* /_ the background image doesn't move when scrolling_/ */
+
 }
 
-/_ the above style gets copied for every new section header with background image. Each new copy has a new class name. _/
+/* /_ the above style gets copied for every new section header with background image. Each new copy has a new class name. _/ */
 
 .paris {
 background: url(../images/Paris2013.jpg);
@@ -89,16 +93,16 @@ background-attachment: fixed;
 }
 
 .green_header {
-/_ this sets the background colour of the coloured header. _/
+/* /_ this sets the background colour of the coloured header. _/ */
 background: #AED581;
 }
 
-/_ Content sections _/
+/* /_ Content sections _/ */
 
 .content {
 margin: 0 auto;
 padding: 1em 20%;
-/_ this in-effect sets the content section's width e.g. 20% = 60% width. _/
+/* /_ this in-effect sets the content section's width e.g. 20% = 60% width. _/ */
 }
 
 footer {
@@ -109,14 +113,14 @@ text-align: center;
 padding: 1em;
 }
 
-/_ This is the mobile responsive stylesheet _/
+/* /_ This is the mobile responsive stylesheet _/ */
 
 @media only screen and (min-width: 768px) {
-/_ tablets and desktop _/
+/* /_ tablets and desktop _/ */
 }
 
 @media only screen and (max-width: 767px) {
-/_ phones _/
+/* /_ phones _/ */
 .content {
 margin: 0 auto;
 position: relative;
@@ -137,7 +141,7 @@ position: relative;
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-/_ portrait phones _/
+/* /_ portrait phones _/ */
 }
 
 </style>
@@ -157,9 +161,10 @@ position: relative;
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
           <video id="uke2" width="100%" height="360" muted loop>
-              <source src="https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4" type="video/mp4">
+              <source src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/cooking_oven.mp4">
           </video>
 
+          https://d2xch9q88t25k4.cloudfront.net/main-page-media/PC/mannacea.mp4
 
           <img width="100%" src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/pexels-cottonbro-3992206.jpg">
           h

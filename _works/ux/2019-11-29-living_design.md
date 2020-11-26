@@ -15,7 +15,7 @@ order: 2
 <div class="text_box" style="text-align: center;">
   <h1>Living Design</h1>
   <h4>The easy way to turn your home into a smart home</h4>
-  <img src="/images/images/56.png">
+  <img src="/images/images/56.png" style="border-radius: 24px;">
 </div>
 
 <div class="text_box" style="text-align: center;">

@@ -38,25 +38,45 @@ order: 1
 <h3 style="margin-top: 0vh; text-align: center;">키친 디자인을 위한 유럽 식문화 조사</h3>
 
 <section class="regular slider" style=" background-color: #fff">
-  <div style="text-align: center;">
+  <div style="text-align: left;">
+    <img src="/images/01.png" style="border-radius: 24px;">
     <p> 런던, 파리 현지 조사<br>
     구주 Microwave 원형 과제<br>
       시기 : 2016년 하반기<br>
       진행 내용 : 1. 구주 시장 영국, 프랑스의 현지 FGD(Focuss group design) 주방내에 Needs 파악<br> 2. 가정 방문(Home visit)을 실사용환경 파악과 진행하여 신규 UX컨셉을 발굴<br>
-      효과 : 가격대별 3가지 군의 전략과 컨셉으로 제안 하였으며 전자레인지의 고정되어진 Form과 사용패턴에서 벗어난 새로운 형태에 컨셉을 제안함.</p>
-      <img src="/images/01.png">
+      효과 : 가격대별 3가지 군의 전략과 컨셉으로 제안 하였으며 전자레인지의 고정되어진 Form과 사용패턴에서 벗어난 새로운 형태에 컨셉을 제안함.
+      <br>
+      https://www.behance.net/gallery/97830809/Gluten-Free-Scanner-Recipe-App-UX-Case-Study?tracking_source=search_projects_recommended%7Ccook%20ux
+      </p>
+      
   </div>
         
   <div>
-    <p>Background</p>
-    <sup>신생 업체로서 점유율 확대 기회 요소 파악</sup>
-    <h3>오븐 설정을 어떻게 쉽게 할 수 있을까?</h3>
+    <h2>Background</h2>
+    <p>신생 업체로서 점유율 확대 기회 요소 파악</p>
+    <h2>조사방법</h2>
+    <h3>1. Home vist 방문조사</h3>
+    <h3>2. Focus Group Disccusion</h3>
     <br>
-    <h4>모드, 온도, 시간의 적절한 조합? 어떻게 설정하지?</h4>
+  </div>
+
+  <div>
+    <h2>User persona</h2>
+    <p>신생 업체로서 점유율 확대 기회 요소 파악</p>
+    <h2>Problem define</h2>
+    <h3>1. 오븐 설정을 어떻게 쉽게 할 수 있을까?</h3>
+    <br>
+    <h4>2. 모드, 온도, 시간의 적절한 조합? 어떻게 설정하지?</h4>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lphzDnh2BxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   
   <div>
+    <h2>Solution</h2>  
+    <h3>Target Segment define</h3>
+    <p>3개 그룹으로 나눠진 가격 수용도 조사</p>
+
+    <h3>User Interface Redesign</h3>
+    <p>타켓에 맞는 적합한 디자인 솔루션 제공</p>
     <h4>LED Guide Lighting design</h4>
     <p>사용자들이 눌러해야되는 버튼을 쉽고 간단하게 안내</p>
     <img src="/images/eu_food/research.png" style="width:100%;">
@@ -71,6 +91,7 @@ order: 1
     신규디자인을 위한 데이터 확보를 위해서 구주 현지에 방문하여 주거, 식문화 등의 라이프 스타일 조사
 
     {% include image-gallery.html folder="/images/uk_mwo/" %}
+
   </div>
   <div>
     현재는 5년간 이상 판매되고 베스트 셀러 다수의 디자인 공모전 수상
@@ -234,7 +255,10 @@ https://www.samsung.com/uk/cooking-appliances/
   <div>
     {% include image-gallery.html folder="/images/newyork/" %}
   </div>
+
 </section>
+
+잉?
 
 <script
       src="https://code.jquery.com/jquery-2.2.0.min.js"
@@ -250,10 +274,10 @@ https://www.samsung.com/uk/cooking-appliances/
       $(document).on("ready", function () {
         $(".regular").slick({
           dots: true,
-          infinite: true,
+          infinite: false,
           slidesToShow: 1,
           slidesToScroll: 1,
-          adaptiveHeight: false,
+          adaptiveHeight: true,
         });
       });
 
