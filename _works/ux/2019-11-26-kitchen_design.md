@@ -18,6 +18,31 @@ order: 1
         <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
         <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
       <style>
+        .banner{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .banner .content{
+    position: relative;
+    z-index: 1;
+    max-width : 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
       </style>
     </head>
 
@@ -27,12 +52,17 @@ order: 1
 <div class="text_box" style="width: 100%; height: 94vh;">
   
   <div class="vedio_box">
-      <div class="vedio_headline">
-      <h1>Kitchen Design🍴</h1>
-      <h4 style="padding-bottom : 24px; color:#fbfbfd">더 나은 요리 경험을 만들어 주는 위한 디자인</h4>
+    <video id="uke" width="100%" height="360" muted loop>
+      <source src="https://jjongstorige.s3.ap-northeast-2.amazonaws.com/cooking_oven.mp4">
+  </video>
+
+      <div class="vedio_headline content">
+      <h1>Kitchen Design</h1>
+      <h4 style="padding-bottom : 24px; color:#fbfbfd">더 나은 요리 경험을 만들어 주는 위한 디자인 🍴</h4>
       </div>
   </div>
-  <img src="/images/20.png">
+  
+  <!-- <img src="/images/20.png"> -->
 </div>
 
 <h3 style="margin-top: 0vh; text-align: center;">키친 디자인을 위한 유럽 식문화 조사</h3>
@@ -282,5 +312,45 @@ https://www.samsung.com/uk/cooking-appliances/
       });
 
 </script>
+<script src="./assets/plugins/ScrollMagic.min.js"></script>
+  <script src="./assets/plugins/debug.addIndicators.min.js"></script>
+
+  <script src='./assets/js/jquery.min.js'></script>
+  <script src="./assets/wow_animate/wow.min.js"></script>
+  <script src="./assets/slick/slick.min.js"></script>
+  <script>
+    // Uncomment to initialise WOW.js
+new WOW().init();
+
+$(document).ready(function(){
+  $('.carousel').slick({
+    dots: true
+  });
+});
+
+  var ukeVid = document.getElementById('uke');
+
+// init controller
+var controller = new ScrollMagic.Controller();
+
+
+// build scene
+
+videoHeight = document.getElementById('uke');
+console.log(videoHeight.height);
+
+var scene = new ScrollMagic.Scene({triggerElement: "#uke", duration: videoHeight.height * 2, offset: 0})
+        .addTo(controller)
+        .addIndicators() // add indicators (requires plugin)
+
+        .on("enter", function () {
+          ukeVid.play();
+        })
+        .on("leave", function () {
+          ukeVid.pause();
+        })
+
+        // build scene
+  </script>
 
 </body>
