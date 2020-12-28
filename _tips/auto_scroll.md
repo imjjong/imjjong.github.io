@@ -34,9 +34,57 @@ author: thiagorossener
  .s01 sub{
    display: none;
  }
+ #menu li.active a {
+    color: #fff;
+}
+#menu li a, #menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#menu li.active {
+    background: #666;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+}
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+    background: #fff;
+    background: rgba(255,255,255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  z-index: 70;
+}
+
   </style>
 </head>
 <body>
+  <ul id="menu">
+    <li data-menuanchor="anchor1"><a href="#anchor1">1</a></li>
+    <li data-menuanchor="anchor2"><a href="#anchor2">2</a></li>
+    <li data-menuanchor="anchor3"><a href="#anchor3">3</a></li>
+    <li data-menuanchor="anchor4"><a href="#anchor3">4</a></li>
+
+  </ul>
   <div id="fullpage">
     <div class="section s0">Section 1
     </div>
@@ -58,6 +106,8 @@ author: thiagorossener
   navigation: true,
   navigationTooltips:['home', 'about','contact','xtras'],
   scrollingSpeed: 800,
+  menu:'#menu',
+  anchors:['anchor1','anchor2','anchor3','anchor4'],
   onLeave: function(origin, destincation, direction){
     console.log('onleave', origin.index, destincation.index);
     if(origin.index == 1){
