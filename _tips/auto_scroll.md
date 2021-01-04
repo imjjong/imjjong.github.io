@@ -34,15 +34,15 @@ author: thiagorossener
  .s01 sub{
    display: none;
  }
- #menu li.active a {
+ #process li.active a {
     color: #fff;
 }
-#menu li a, #menu li.active a {
+#process li a, #process li.active a {
     padding: 9px 18px;
     display: block;
 }
 
-#menu li a {
+#process li a {
     text-decoration: none;
     color: #000;
 }
@@ -55,34 +55,55 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
-#menu li.active {
+#process li.active {
     background: #666;
     background: rgba(0,0,0, 0.5);
     color: #fff;
 }
-#menu li {
+#process li {
     display: inline-block;
-    margin: 10px;
+    margin: 0px;
     color: #000;
     background: #fff;
     background: rgba(255,255,255, 0.5);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
-#menu {
+#process {
   position: fixed;
+  right: 10%;
   top: 0;
   z-index: 70;
 }
+.fp-controlArrow{
+  fill:none;
+  stroke: red;
+}
+/* .fp-controlArrow.fp-prev {
+    left: 0;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url(left.png) no-repeat;
+    cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+    right: 0;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url(right.png) no-repeat;
+    cursor: pointer;
+} */
 
   </style>
 </head>
 <body>
-  <ul id="menu">
+  <ul id="process">
     <li data-menuanchor="anchor1"><a href="#anchor1">1</a></li>
     <li data-menuanchor="anchor2"><a href="#anchor2">2</a></li>
     <li data-menuanchor="anchor3"><a href="#anchor3">3</a></li>
-    <li data-menuanchor="anchor4"><a href="#anchor3">4</a></li>
+    <li data-menuanchor="anchor4"><a href="#anchor4">4</a></li>
 
   </ul>
   <div id="fullpage">
@@ -106,7 +127,8 @@ a:-webkit-any-link {
   navigation: true,
   navigationTooltips:['home', 'about','contact','xtras'],
   scrollingSpeed: 800,
-  menu:'#menu',
+  slidesNavigation: true,
+  menu:'#process',
   anchors:['anchor1','anchor2','anchor3','anchor4'],
   onLeave: function(origin, destincation, direction){
     console.log('onleave', origin.index, destincation.index);
