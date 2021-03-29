@@ -12,6 +12,8 @@ paginate: false
 order: 2
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gnd2NdZWYv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <div class="text_box" style="text-align: center;">
   <h1>Living Design</h1>
   <h4>The easy way to turn your home into a smart home</h4>
