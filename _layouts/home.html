@@ -38,7 +38,7 @@ site.show_hero and paginator == nil or paginator.page == 1 %} {% assign offset =
   {% endif %}
 
   <!-- Custome UX Posts -->
-  <h3 class="title-category">UX work</h3>
+  <h3 class="title-category">UX design</h3>
   <section id="grid" class="row flex-grid">
     {% assign ux = site.works |sort: 'order'| reverse %} {% for post in ux %} {%
     if post.category == "work" %}
