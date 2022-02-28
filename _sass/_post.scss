@@ -67,10 +67,10 @@
   ol,
   iframe {
     @include center(rem(800px));
-    @include mainFont(400);
+    @include mainFont(500);
     // 바탕글 폰트 사이즈
 
-    line-height: rem(24px);
+    line-height: rem(12px);
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
@@ -79,13 +79,13 @@
 
     @include media(">=sm") {
       font-size: rem(14px);
-      line-height: rem(32px);
+      line-height: rem(14px);
       margin: rem(29px) auto 0;
     }
 
     @include media(">=pc") {
       font-size: rem(16px);
-      line-height: rem(32px);
+      line-height: rem(16px);
     }
 
     // 바탕글 편집 부분 끝
