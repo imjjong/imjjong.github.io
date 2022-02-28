@@ -1,14 +1,15 @@
 ---
 date: "2019-12-29 12:45:07"
 layout: post
-title: Data-driven Design
-description: The adjective data-driven means that progress in an activity is compelled by data, rather than by intuition or by personal experience.
+title: Data-driven Design 
+description: The adjective data-driven means that progress in an activity is compelled by data, rather than by intuition or by personal experience. /
 image: /images/index/data-driven01.png
 category: work
 tags:
   - jjong
 author: JJong
 paginate: false
+hidden: true
 
 # image:
 #   - image: /images/cake.png

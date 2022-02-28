@@ -2,7 +2,7 @@
 date: "2019-12-29 12:45:07"
 layout: post
 title: IoT UX design
-description: The adjective data-driven means that progress in an activity is compelled by data, rather than by intuition or by personal experience.
+description: 2017 ~ 2022 SmartThings UI 디자인 설계 
 image: \images\index\iot_thumbnail.JPG
 category: work
 tags:
